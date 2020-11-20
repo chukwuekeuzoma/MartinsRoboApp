@@ -2,12 +2,12 @@ import React from "react";
 import Card from "./Card"
 
 function CardList({CardData}) {
-  const cardDataArrays =  CardData.map((user,i)=>{
+     const cardDataArrays =  CardData.map((user)=>{
         return(
-        <Card key={i} 
-        id ={CardData[i].id} 
-        name={CardData[i].name} 
-        email={CardData[i].email}/>
+        <Card key={user.id} 
+        id ={user.id} 
+        name={user.name} 
+        email={user.email}/>
         )
      });
    return(

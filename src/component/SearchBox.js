@@ -1,6 +1,6 @@
 import React from "react";
 
-function  SearchBox({searchfield,searchChange}) {
+function  SearchBox({searchChange}) {
     return(
         <div className="pa2">
           <input  className="pa3 b b--red bg-lightest-red"

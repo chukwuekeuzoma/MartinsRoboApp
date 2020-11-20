@@ -1,5 +1,5 @@
 import React from "react"
-import "./Scroll.css"
+import "../cssStyle/Scroll.css"
 
 function  Scroll(props) {
     return(
